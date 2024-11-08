@@ -10,7 +10,7 @@ HTML
 <body>
     <header>
         <nav>
-            <h1>Landing Page</h1>
+            <h1>Knowledge</h1>
             <ul>
                 <li><a href="#features">Features</a></li>
                 <li><a href="#about">About</a></li>
@@ -20,28 +20,30 @@ HTML
     </header>
     
     <section class="hero">
-        <h2>Welcome to Our Service</h2>
+        <h2>Welcome you all to this page</h2>
         <p>Discover amazing features that help you achieve your goals.</p>
-        <img src="https://tse2.mm.bing.net/th?id=OIP._SZM30_l7zXHQ3ShNcMOxQHaE8&pid=Api&P=0&h=220"/>
         <a href="#signup" class="cta-button">Get Started</a>
     </section>
-
     <section id="features">
         <h2>Features</h2>
         <div class="feature">
-            <h3>Feature One</h3>
-            <p>Details about feature one.</p>
+            <h3>Information</h3>
+            <p>We give detailed and correct information about everything. </p>
         </div>
         <div class="feature">
-            <h3>Feature Two</h3>
-            <p>Details about feature two.</p>
+            <h3>Directing to other page</h3>
+            <p>Users can directly subscribe or buy anything from the direct link 
+                provided here.
+            </p>
         </div>
         <div class="feature">
-            <h3>Feature Three</h3>
-            <p>Details about feature three.</p>
+            <h3>Accessible</h3>
+            <p>The video,images and any websites available in this page can be access
+                in any browser.
+            </p>
         </div>
     </section>
-
+    
     <footer>
         <p>&copy; 2024 All rights reserved.</p>
     </footer>
@@ -61,8 +63,8 @@ body {
 }
 
 header {
-    background: #333;
-    color: #fff;
+    background: #060219;
+    color: #de1f4f;
     padding: 1rem;
 }
 
@@ -86,24 +88,24 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
-    text-decoration: none;
+    color: #ef1a1a;
+    text-decoration: unset;
 }
 
 .hero {
-    background: url('hero-image.jpg') no-repeat center center/cover;
+    background: url('https://tse2.mm.bing.net/th?id=OIP.NPYSYlHJ4kbztWnIjWsXWwHaEK&pid=Api&P=0&h=220') no-repeat center center/cover;
     height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color: #ebe9f1;
     text-align: center;
 }
 
 .cta-button {
-    background: #ff6347;
-    color: #fff;
+    background: #e769c3;
+    color: #1c42be;
     padding: 1rem 2rem;
     text-decoration: none;
     border-radius: 5px;
@@ -121,6 +123,7 @@ section {
 
 .feature {
     margin: 1rem 0;
+    
 }
 
 footer {
