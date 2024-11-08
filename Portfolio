@@ -18,8 +18,8 @@ HTML
             </ul>
         </nav>
     </header>
-
-    <section class="hero">
+    <section id="name">
+        <div class="hero">
         <h2>Hello, I'm Nirupama Majhi</h2>
         <p>I had done my primary and secondary  education in St.Xaviers High School with a percentage of 90 and 84 respectively. Currently I am pursuing computer science in Aryan Institute 
             of Enginnering and Technology.
@@ -27,6 +27,7 @@ HTML
 
         
         <a href="#projects" class="cta-button">View My Work</a>
+        </div>
     </section>
 
     <section id="about">
@@ -39,10 +40,14 @@ HTML
     <section id="projects">
         <h2>My Projects</h2>
         <div class="project">
-            <h3>Project One</h3>
+            <h3>Project One:Knowledge</h3>
             <p>This is my first landing page</p>
             <a href="file:///C:/xampp/htdocs/landing%20page/Landing%20Page.html#features">View Project</a>
+            <h3>Project Two:Calculator</h3>
+            <p>This is an user-friendly online calculator</p>
+            <a href="file:///C:/xampp/htdocs/calculator/calculator.html">View Project</a>
         </div>
+        
         
     </section>
 
@@ -62,7 +67,6 @@ HTML
 </body>
 </html>
 
-
 CSS
 * {
     margin: 0;
@@ -73,12 +77,12 @@ CSS
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background :url('https://tse4.mm.bing.net/th?id=OIP.QKVnUCFa_Hh_QDBsfZiqggHaEB&pid=Api&P=0&h=220')no-repeat center center/cover;
 }
 
 header {
-    background: #333;
-    color: #fff;
+    background: #111010;
+    color: #f94848;
     padding: 1rem;
 }
 
@@ -102,20 +106,24 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #e92b2b;
     text-decoration: none;
 }
 
 .hero {
-    background: #007bff;
-    color: #fff;
-    padding: 5rem 1rem;
+    background:url('https://tse4.mm.bing.net/th?id=OIP._XV66nDCkqIgHTR_aUmbdQAAAA&pid=Api&P=0&h=220');
+    color: #110d0d;
+    padding: 3rem 1rem;
     text-align: center;
+    margin: 1rem 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgb(118, 240, 66);
 }
 
 .cta-button {
-    background: #ff6347;
-    color: #fff;
+    background: #ff47bf;
+    color: #2320cd;
     padding: 0.5rem 1rem;
     text-decoration: none;
     border-radius: 5px;
@@ -133,10 +141,10 @@ section {
 
 .project {
     margin: 1rem 0;
-    background: #fff;
+    background: #eae1e1;
     padding: 1rem;
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(89, 55, 55, 0.1);
 }
 
 form {
@@ -172,3 +180,4 @@ footer {
     background: #333;
     color: #fff;
 }
+
